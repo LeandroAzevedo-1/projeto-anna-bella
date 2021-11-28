@@ -1,0 +1,48 @@
+/*Cor padrão é a mesma cor da imagem, caso a imagem não carregar, a cor será aplicada. backgraud por padrão ele vai repetir a cor
+Se colocar no-repeat, a imagem fica no tamanho normal, sem repetição */
+body{
+	background: #d2d2c1 url('imagens/fundo.png');
+	fonte: 16px "Arial", "Helvetica", sans-serif;
+}
+#principal{
+	/*border: 1px solid red ; Essa borda foi removida, a inteção de usa-la era para ter um direcionamentoda imagem*/
+	width: 900px;/*Vamos definir para um tamanho  principal, a largura(width) fixa, a Altura vai ser de acordo com o conteúdo,
+	por isso não definimos a altura */
+
+}
+#menu{
+	background: #c5c5b2; /*Cor onde vão ficar o menu*/
+	/*border: 1px solid red; Borda removida, era só para ter um direcionamento */
+	padding: 18px; /* Aplica um espaçamento interno */
+
+} 
+/*Estilizando o conteúdo*/
+#conteudo{
+	background: #e8e8d9;
+	padding: 10px;
+}
+
+#rodape{
+	text-align: center; /*Centraliza o texto "Todos os direitos reservados", posso também usar o left- esquerda / right-direita */
+}
+
+/*Todos os link terá a mesma formataçao*/
+a {
+	color: #4b566a;  /*Colocamos a cor da fonte*/
+	text-decoration: none; /*Retirando o underline*/
+	font-weight: bold; /*Negrito*/
+	/*border: 1px solid red;*/
+	padding: 5px;
+}
+
+
+/*Todos os textos com h1 serão editado uma unica vez "Sobre Anna Bella"*/
+h1{
+	color: #828271;
+	font-size: 1.2em; /*Usamos o "em" porue definimos o doby em 16px*/
+}
+/*Formatação das imagens de campanhas publicitárias */
+.img-campanha{
+	border: 10px solid #c3c3ae;
+
+}
